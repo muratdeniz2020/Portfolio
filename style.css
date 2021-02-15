@@ -1,0 +1,185 @@
+body {
+    background-color: #f6f5f5;
+    margin: 0px;
+    padding: 0px;
+    font-family: calibri;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  /* Navbar section */
+  
+  nav {
+    display: flex;
+    align-items:center;
+    font-family: "Big Shoulders Display";
+    justify-content: space-between;
+    padding:0 5%;
+    background-color: black;
+    height: 60px;
+    
+  }
+  
+  nav ul{
+    display:flex;
+  }
+  
+  nav ul li a{
+    margin:30px;
+    color:#ffffff;
+  }
+  
+  .logo {
+    color:#ffffff;
+    font-size: 22px;
+  }
+  
+  /* Main Section */
+  
+  .main-section{
+    height: 95vh;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+  }
+  
+  #developer{
+    height: 400px;
+  }
+  
+  .greeting{
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size:22px;
+  }
+  
+  .my-name{
+    font-weight: bold;
+    color:#1a1a1a;
+    font-size:60px;
+  }
+  
+  .profession{
+    color:#403e3e;
+    font-size:30px;
+  }
+  
+  .text-container p {
+    margin: 40px 0px;
+    line-height: 0px;
+  }
+  
+  .text-container button{
+    width: 130px;
+    height:42px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size:14px;
+    margin:0px 10px;
+  }
+  
+  .hire-btn{
+    color:#373636;
+    border: 2px solid #373636;
+  }
+  
+  .down-cv{
+    background-color: #0b0b0b;
+    color:white;
+    border:none;
+  }
+  
+  /* Skills */
+  
+  .skills-test h2{
+    font-size:32px;
+  }
+  
+  .skills{
+    background-color: #1a1a1a;
+    text-align:center;
+    color:#ffffff;
+    padding:2% 10% 0px;
+  }
+  
+  .skills-icon{
+    width: 100px;
+    height: 150px;
+    margin-bottom: 30px;
+  }
+  
+  .skills-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Contact us */
+  
+  .contact-us{
+   height: 280px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  .contact-us p{
+    color:#000000;
+    font-size:30px;
+    font-weight: bold;
+    border-bottom: 2px solid #000000;
+  }
+  
+  .contact-us button{
+    width:200px;
+    height: 40px;
+    color:#ffffff;
+    background-color: #000000;
+    font-size:14px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer{
+    background-color:#1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-recoded{
+    font-size: 30px;
+    font-weight: bold;
+    color:#ffffff;
+    line-height: 10px;
+  }
+  
+  .footer-description{
+    font-size:16px;
+    color:#7e7d7d;
+    width:50%;
+    text-align: center;
+  }
+  
+  .copyrights{
+    color:#565555;
+    font-size:12px;
+  }
+  
+  .social-icons{
+    display: flex;
+  }
+  
+  .social-icons a{
+    width:30px;
+    height:30px;
+    margin: 20px 10px;
+  }
